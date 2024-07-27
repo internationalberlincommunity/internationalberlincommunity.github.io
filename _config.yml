@@ -1,12 +1,68 @@
 title: "International Berlin Community (IBC)"
-email: "contact@ibc.org"
+email: "internationalberlincommunity@gmail.com"
 description: "Promoting international understanding, tolerance, cultural exchange, and building an inclusive community in Berlin through social events."
 baseurl: ""
 url: "https://your-username.github.io/your-ngosite"
-twitter_username: "your-username"
-github_username: "your-username"
+twitter_username: "your-twitter-username"
+github_username: "your-github-username"
+facebook_username: "your-facebook-username"
+linkedin_username: "your-linkedin-username"
 
-theme: minima
-
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+
+defaults:
+  - scope:
+      path: "pages/"
+    values:
+      layout: single
+      author: your-username
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About Us"
+    url: /about/
+  - title: "Impressum"
+    url: /impressum/
+  - title: "Programs"
+    url: /programs/
+  - title: "Rules"
+    url: /rules/
+  - title: "Contact"
+    url: /contact/
+
+# Minimal Mistakes settings
+author:
+  name: "International Berlin Community"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Promoting international understanding and tolerance in Berlin."
+  location: "Berlin, Germany"
+  email: "internationalberlincommunity@gmail.com"
+  links:
+    - label: "Email"
+      url: "mailto:internationalberlincommunity@gmail.com"
+    - label: "Twitter"
+      url: "https://twitter.com/your-twitter-username"
+    - label: "GitHub"
+      url: "https://github.com/your-github-username"
+    - label: "Facebook"
+      url: "https://www.facebook.com/internationalberlincommunitye"
+    - label: "Instagram"
+      url: "http://www.instagram.com/internationalberlinhiking"
+    - label: "Telegram"
+      url: "https://t.me/+0lxSMmua_rYyYzhk"
+    - label: "WhatsApp"
+      url: "https://chat.whatsapp.com/KvFKTUWcWrd6lhff5YlIow"
+    - label: "Feedback form"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSei3YaeIzuYzcsVngduWWDB09b8irdvKtQLqRmCtJsuMRVPQQ/viewform"
+
+collections:
+  team:
+    output: true

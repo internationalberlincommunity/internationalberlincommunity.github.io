@@ -1,45 +1,192 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
+.site-header {
+  position: relative;
+  background: url('/assets/images/header-background.jpg') no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 80px 0; /* Reduced padding for a smaller header */
+  text-align: center;
+  height: 300px; /* Set a smaller height for the header */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
+.site-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 1em;
+.site-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+  z-index: 1;
+  position: relative; /* Ensure the text is above the overlay */
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.site-nav {
+  margin-top: 10px; /* Reduced margin */
+  z-index: 1;
+  position: relative; /* Ensure the navigation is above the overlay */
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav ul li {
+  display: inline;
+  margin: 0 10px; /* Adjusted margin for spacing */
+}
+
+.site-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.site-nav ul li a:hover {
+  text-decoration: underline;
 }
 
 .content {
-    padding: 2em;
-    margin: 2em;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-footer {
-    background: #333;
-    color: #fff;
+.site-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0; /* Reduced padding */
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer .footer-contact {
+  margin-top: 10px;
+}
+
+.site-footer .footer-contact a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.site-footer .footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 10px; /* Add some space between the text and icons */
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 5px; /* Reduced margin */
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.post h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.team-member {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px; /* Increased margin */
+  width: 300px; /* Increased width */
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 120px; /* Increased size */
+  height: 120px; /* Increased size */
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  margin: 10px 0;
+  font-size: 1.8em; /* Increased font size */
+}
+
+.team-member p {
+  font-size: 1em; /* Increased font size */
+  color: #666;
+}
+
+.team-member-links {
+  margin-top: 10px;
+}
+
+.team-member-links a {
+  color: #0077b5; /* LinkedIn blue */
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.team-member-links a:hover {
+  color: #005582; /* Darker LinkedIn blue */
+}
+
+@media (max-width: 768px) {
+  .site-header h1 {
+    font-size: 2em;
+  }
+
+  .site-nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .site-nav ul {
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  }
+
+  .team {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    width: 80%;
+  }
 }
