@@ -21,7 +21,7 @@
 title: International Berlin Community
 email: internationalberlincommunity@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- The official webpage of International Berlin Community
+Promoting international understanding, tolerance, cultural exchange, and building an inclusive community in Berlin through social events.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: International Berlin Community

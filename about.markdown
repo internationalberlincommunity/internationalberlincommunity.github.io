@@ -1,18 +1,11 @@
 ---
-layout: page
-title: About
+layout: default
+title: About Us
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About Us
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+The International Berlin Community (IBC) is dedicated to promoting international understanding, tolerance, cultural exchange, and building an inclusive community in Berlin through social events.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Our mission is to create a welcoming and inclusive environment for people from all walks of life. Through various social, cultural, educational, and sports events, we aim to foster mutual respect and understanding among community members.
