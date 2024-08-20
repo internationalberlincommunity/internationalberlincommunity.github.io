@@ -7,62 +7,52 @@ body {
 }
 
 .site-header {
-  position: relative;
-  background: url('/assets/images/header-background.jpg') no-repeat center center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #333;
   color: #fff;
-  padding: 80px 0; /* Reduced padding for a smaller header */
-  text-align: center;
-  height: 300px; /* Set a smaller height for the header */
+  padding: 10px 20px; /* Reduced padding for a thinner header */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
-.site-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-}
-
-.site-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
-  z-index: 1;
-  position: relative; /* Ensure the text is above the overlay */
+.site-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #444; /* Background for the logo section */
+  border-radius: 5px;
 }
 
 .site-nav {
-  margin-top: 10px; /* Reduced margin */
-  z-index: 1;
-  position: relative; /* Ensure the navigation is above the overlay */
+  display: flex;
+  gap: 15px; /* Space between navigation items */
 }
 
 .site-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 15px; /* Space between navigation items */
 }
 
 .site-nav ul li {
-  display: inline;
-  margin: 0 10px; /* Adjusted margin for spacing */
+  margin: 0;
 }
 
 .site-nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1em;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .site-nav ul li a:hover {
-  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
 }
 
 .content {
@@ -75,7 +65,7 @@ body {
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 10px 0; /* Reduced padding */
+  padding: 10px 0;
 }
 
 .site-footer p {
@@ -97,12 +87,12 @@ body {
 }
 
 .social-links {
-  margin-top: 10px; /* Add some space between the text and icons */
+  margin-top: 10px;
 }
 
 .social-links a {
   color: #fff;
-  margin: 0 5px; /* Reduced margin */
+  margin: 0 5px;
   text-decoration: none;
   font-size: 1.2em;
 }
@@ -129,26 +119,26 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin: 15px; /* Increased margin */
-  width: 300px; /* Increased width */
+  margin: 15px;
+  width: 300px;
   text-align: center;
 }
 
 .team-member img {
   border-radius: 50%;
-  width: 120px; /* Increased size */
-  height: 120px; /* Increased size */
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   margin-bottom: 15px;
 }
 
 .team-member h3 {
   margin: 10px 0;
-  font-size: 1.8em; /* Increased font size */
+  font-size: 1.8em;
 }
 
 .team-member p {
-  font-size: 1em; /* Increased font size */
+  font-size: 1em;
   color: #666;
 }
 
@@ -157,28 +147,26 @@ body {
 }
 
 .team-member-links a {
-  color: #0077b5; /* LinkedIn blue */
+  color: #0077b5;
   margin: 0 5px;
   text-decoration: none;
   font-size: 1.2em;
 }
 
 .team-member-links a:hover {
-  color: #005582; /* Darker LinkedIn blue */
+  color: #005582;
 }
 
 @media (max-width: 768px) {
-  .site-header h1 {
-    font-size: 2em;
-  }
-
-  .site-nav ul li {
-    display: block;
-    margin: 10px 0;
+  .site-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .site-nav ul {
-    text-align: center;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .team {

@@ -48,6 +48,8 @@ We offer a variety of programs to engage our community members:
 
 ### Testimonials
 
+> Example update august 10
+
 > "IBC has been a fantastic way to meet new people and learn about different cultures. I highly recommend joining their events!" - John Doe
 
 > "The community at IBC is very welcoming and inclusive. I always have a great time at their programs." - Jane Smith
