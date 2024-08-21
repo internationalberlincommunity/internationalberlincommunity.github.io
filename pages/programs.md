@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Programs"
 permalink: /programs/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Meet Our Team"
 permalink: /team/
 ---
