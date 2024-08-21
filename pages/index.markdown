@@ -4,31 +4,77 @@ title: "Welcome to International Berlin Community"
 permalink: /
 ---
 
-<div class="content-section"> <!-- Merged content div -->
+<div class="content-section">
   <div class="page-header">
-    <h1>Welcome to International Berlin Community</h1>
-    <p>Promoting international understanding, tolerance, and cultural exchange in Berlin through social events.</p>
+    <h1>Our programs</h1>
   </div>
 
+  <!-- Slideshow Section -->
   <section>
-    <h2>Our Programs</h2>
-    <ul class="program-list">
-      <li><strong>Social Events</strong>: Regular gatherings to encourage social interaction and community building.</li>
-      <li><strong>Cultural Festivals</strong>: Celebrating diverse cultures through festivals and events.</li>
-      <li><strong>Educational Workshops</strong>: Offering workshops on various topics to educate and empower community members.</li>
-      <li><strong>Sports Activities</strong>: Organizing sports events to promote physical health and teamwork.</li>
-    </ul>
-  </section>
+    <div class="slideshow-container">
+      <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+      
+      <div class="mySlides fade" onclick="window.location.href='/programs/#hiking'">
+        <img src="/assets/images/hiking.jpg" class="slideshow-image">
+        <div class="text-overlay">
+          <div class="text">Hiking</div>
+        </div>
+      </div>
 
-  <hr class="section-divider">
+      <div class="mySlides fade" onclick="window.location.href='/programs/#languageExchange'">
+        <img src="/assets/images/languageExchange.jpeg" class="slideshow-image">
+        <div class="text-overlay">
+          <div class="text">Language Exchange</div>
+        </div>
+      </div>
+      
+      <div class="mySlides fade" onclick="window.location.href='/programs/#picnic'">
+        <img src="/assets/images/picnic.jpg" class="slideshow-image">
+        <div class="text-overlay">
+          <div class="text">Picnic</div>
+        </div>
+      </div>
 
-  <section>
-    <h2>Upcoming Events</h2>
-    <ul class="event-list">
-      <li><a href="/events/2024-07-01-summer-festival/">Summer Festival - July 1, 2024</a></li>
-      <li><a href="/events/2024-08-15-cultural-exchange-night/">Cultural Exchange Night - August 15, 2024</a></li>
-    </ul>
-    <p><a href="/events/">View All Events</a></p>
+      <div class="mySlides fade" onclick="window.location.href='/programs/#museum'">
+        <img src="/assets/images/museum.jpg" class="slideshow-image">
+        <div class="text-overlay">
+          <div class="text">Museum Visits</div>
+        </div>
+      </div>
+
+      <div class="mySlides fade" onclick="window.location.href='/programs/#dayTrips'">
+        <img src="/assets/images/dayTrips.jpg" class="slideshow-image">
+        <div class="text-overlay">
+          <div class="text">Day Trips</div>
+        </div>
+      </div>
+
+      <div class="mySlides fade" onclick="window.location.href='/programs/#beachDay'">
+        <img src="/assets/images/beachDay.jpg" class="slideshow-image">
+        <div class="text-overlay">
+          <div class="text">Beach Days</div>
+        </div>
+      </div>
+
+      <div class="mySlides fade" onclick="window.location.href='/programs/#culturalEvents'">
+        <img src="/assets/images/culturalEvents.jpg" class="slideshow-image">
+        <div class="text-overlay">
+          <div class="text">Cultural Events</div>
+        </div>
+      </div>
+
+      <div class="next" onclick="plusSlides(1)">&#10095;</div>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+    </div>
   </section>
 
   <hr class="section-divider">
@@ -66,3 +112,37 @@ permalink: /
     </blockquote>
   </section>
 </div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+// Toggle dark mode
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
+</script>
