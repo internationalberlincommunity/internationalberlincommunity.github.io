@@ -4,11 +4,11 @@ title: "Group Rules"
 permalink: /rules/
 ---
 
-<div class="page-header">
-  <h1>Group Rules</h1>
-</div>
-
 <div class="content-section">
+  <div class="page-header">
+    <h1>Group Rules</h1>
+  </div>
+
   <div class="rules-container">
     <div class="rule">
       <h2>1. Personal Responsibility</h2>

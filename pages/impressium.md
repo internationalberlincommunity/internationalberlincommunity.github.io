@@ -4,20 +4,28 @@ title: "Impressum"
 permalink: /impressum/
 ---
 
-<div class="page-header">
-  <h1>Impressum</h1>
-  <p>Legal details and disclosures regarding the International Berlin Community (IBC).</p>
-</div>
-
 <div class="content-section">
-  <h2>Name and Location</h2>
-  <p><strong>Name</strong>: International Berlin Community (IBC)</p>
-  <p><strong>Location</strong>: Berlin, Germany</p>
-  <p><strong>Fiscal Year</strong>: Calendar year</p>
+  <div class="page-header">
+    <h1>Impressum</h1>
+    <p>Legal details and disclosures regarding the International Berlin Community (IBC).</p>
+  </div>
 
-  <h2>Purpose and Non-Profit Status</h2>
-  <p>The association exclusively and directly pursues charitable purposes in the sense of the section "Tax-privileged purposes" of the German Fiscal Code.</p>
+  <div class="legal-info">
+    <h2 class="section-title">Name and Location</h2>
+    <p><strong>Name</strong>: International Berlin Community (IBC)</p>
+    <p><strong>Location</strong>: Berlin, Germany</p>
+  </div>
 
-  <h2>Non-Profit Nature</h2>
-  <p>The association is selflessly active; it does not primarily pursue its own economic purposes. Association funds may only be used for statutory purposes. Members do not receive payments from the association's funds. No person may benefit from expenditures that are alien to the purposes of the association or through disproportionately high remuneration.</p>
+  <div class="legal-info">
+    <h2 class="section-title">Contact Information</h2>
+    <p><strong>Email</strong>: ibcmanagement@outlook.com</p>
+    <p><strong>Facebook</strong>: <a href="https://www.facebook.com/groups/internationalberlinhiking" target="_blank" rel="noopener noreferrer">International Berlin Community on Facebook</a></p>
+    <p><strong>Instagram</strong>: <a href="http://www.instagram.com/internationalberlinhiking" target="_blank" rel="noopener noreferrer">@internationalberlinhiking</a></p>
+    <p><strong>WhatsApp</strong>: <a href="https://chat.whatsapp.com/KvFKTUWcWrd6lhff5YlIow" target="_blank" rel="noopener noreferrer">Join our WhatsApp group</a></p>
+  </div>
+
+  <div class="legal-info">
+    <h2 class="section-title">Legal Form</h2>
+    <p>The International Berlin Community (IBC) is an association under German law, with the purpose of fostering international understanding, tolerance, and cultural exchange in Berlin through social events.</p>
+  </div>
 </div>

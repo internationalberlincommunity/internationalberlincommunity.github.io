@@ -1,83 +1,63 @@
-- name: John Doe
-  photo: /assets/images/john-doe.jpg
-  bio: John is the founder of IBC and has over 10 years of experience in community building and cultural exchange.
-  link: /team/john-doe/
-  linkedin: https://www.linkedin.com/in/johndoe
-  email: john.doe@example.com
+- name: Adam Miko
+  photo: 
+  bio: Adam is the founder of IBC.
+  link: /team/adam-miko/
+  linkedin: https://www.linkedin.com/in/%C3%A1d%C3%A1m-mik%C3%B3/
+  email: 
 
-- name: Jane Smith
-  photo: /assets/images/jane-smith.jpg
-  bio: Jane is the event coordinator at IBC and specializes in organizing large scale cultural festivals.
-  link: /team/jane-smith/
-  linkedin: https://www.linkedin.com/in/janesmith
-  email: jane.smith@example.com
+- name: Gia Phan
+  photo: 
+  bio: Gia is the co-founder of IBC.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: Emily Johnson
-  photo: /assets/images/emily-johnson.jpg
-  bio: Emily is a volunteer coordinator with a passion for community service and engagement.
-  link: /team/emily-johnson/
-  linkedin: https://www.linkedin.com/in/emilyjohnson
-  email: emily.johnson@example.com
+- name: Vinod G.
+  photo: 
+  bio: Vinod specialies for hikes.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: Michael Brown
-  photo: /assets/images/michael-brown.jpg
-  bio: Michael oversees our sports activities and ensures everyone stays active and healthy.
-  link: /team/michael-brown/
-  linkedin: https://www.linkedin.com/in/michaelbrown
-  email: michael.brown@example.com
+- name: Masud H.
+  photo: 
+  bio: Masud is responsible for the language exchanges.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: Sarah Davis
-  photo: /assets/images/sarah-davis.jpg
-  bio: Sarah is responsible for our educational workshops, providing valuable learning experiences.
-  link: /team/sarah-davis/
-  linkedin: https://www.linkedin.com/in/sarahdavis
-  email: sarah.davis@example.com
+- name: Ratnesh P.
+  photo: 
+  bio: Ratnesh specializes for day trips.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: David Wilson
-  photo: /assets/images/david-wilson.jpg
-  bio: David handles our cultural exchange programs, fostering understanding between diverse groups.
-  link: /team/david-wilson/
-  linkedin: https://www.linkedin.com/in/davidwilson
-  email: david.wilson@example.com
+- name: Talal D.
+  photo: 
+  bio: Talal specialized for food events.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: Anna Lee
-  photo: /assets/images/anna-lee.jpg
-  bio: Anna manages our social media presence and ensures we stay connected with our community.
-  link: /team/anna-lee/
-  linkedin: https://www.linkedin.com/in/annalee
-  email: anna.lee@example.com
+- name: Anna P.
+  photo: 
+  bio: Anna specialies for hikes.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: Chris Martinez
-  photo: /assets/images/chris-martinez.jpg
-  bio: Chris is in charge of our marketing efforts, helping to spread the word about IBC.
-  link: /team/chris-martinez/
-  linkedin: https://www.linkedin.com/in/chrismartinez
-  email: chris.martinez@example.com
+- name: Ashish S.
+  photo: 
+  bio: Ashish specialies for hikes.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: Laura Garcia
-  photo: /assets/images/laura-garcia.jpg
-  bio: Laura coordinates our fundraising events and helps secure resources for our programs.
-  link: /team/laura-garcia/
-  linkedin: https://www.linkedin.com/in/lauragarcia
-  email: laura.garcia@example.com
+- name: Shristi R.
+  photo: 
+  bio: Shristi specializes for day trips.
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
 
-- name: James Anderson
-  photo: /assets/images/james-anderson.jpg
-  bio: James is our IT specialist, ensuring our technology runs smoothly and efficiently.
-  link: /team/james-anderson/
-  linkedin: https://www.linkedin.com/in/jamesanderson
-  email: james.anderson@example.com
-
-- name: Patricia Taylor
-  photo: /assets/images/patricia-taylor.jpg
-  bio: Patricia is our graphic designer, creating visually appealing materials for our events.
-  link: /team/patricia-taylor/
-  linkedin: https://www.linkedin.com/in/patriciataylor
-  email: patricia.taylor@example.com
-
-- name: Robert Thomas
-  photo: /assets/images/robert-thomas.jpg
-  bio: Robert is our logistics coordinator, making sure everything is in place for our events.
-  link: /team/robert-thomas/
-  linkedin: https://www.linkedin.com/in/robertthomas
-  email: robert.thomas@example.com

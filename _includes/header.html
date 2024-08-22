@@ -12,6 +12,37 @@
       <li><a href="{{ '/team/' | relative_url }}">Team</a></li>
       <li><a href="{{ '/rules/' | relative_url }}">Rules</a></li>
       <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      <li><a href="{{ '/statutes/' | relative_url }}">Statutes</a></li>
+      <!-- Dark Mode Toggle Button -->
+      <li><a href="#" class="dark-mode-toggle"><i class="fas fa-moon"></i></a></li>
     </ul>
   </nav>
 </header>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const toggleButton = document.querySelector('.dark-mode-toggle');
+  const body = document.body;
+
+  // Check if dark mode was previously enabled
+  if (localStorage.getItem('darkMode') === 'enabled') {
+    body.classList.add('dark-mode');
+    toggleButton.innerHTML = '<i class="fas fa-sun"></i>';
+  }
+
+  toggleButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+
+    // Save the current mode to localStorage
+    if (body.classList.contains('dark-mode')) {
+      localStorage.setItem('darkMode', 'enabled');
+      toggleButton.innerHTML = '<i class="fas fa-sun"></i>';
+    } else {
+      localStorage.setItem('darkMode', 'disabled');
+      toggleButton.innerHTML = '<i class="fas fa-moon"></i>';
+    }
+  });
+});
+
+</script>
