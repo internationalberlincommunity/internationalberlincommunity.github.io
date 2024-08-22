@@ -1,8 +1,8 @@
 title: "International Berlin Community (IBC)"
 email: "internationalberlincommunity@gmail.com"
 description: "Promoting international understanding, tolerance, cultural exchange, and building an inclusive community in Berlin through social events."
-baseurl: ""
-url: "https://your-username.github.io/your-ngosite"
+baseurl: ""  # Leave this empty since it's hosted at the root of the domain
+url: "https://internationalberlincommunity.github.io"  # Your GitHub Pages URL
 twitter_username: "your-twitter-username"
 github_username: "your-github-username"
 facebook_username: "your-facebook-username"
