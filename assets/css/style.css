@@ -112,7 +112,6 @@ a:hover {
   z-index: 1001; /* Ensures it's above other elements */
 }
 
-
 /* Responsive Styles for Navigation */
 @media (max-width: 768px) {
   .hamburger {
@@ -124,10 +123,9 @@ a:hover {
     border: none;
     outline: none;
     z-index: 1001;
-}
+  }
 
-
-  .site-nav ul {
+  .site-nav {
     display: none; /* Initially hide the nav */
     flex-direction: column;
     align-items: flex-start;
@@ -137,12 +135,18 @@ a:hover {
     left: 0;
     width: 100%;
     padding: 10px 20px;
-}
+  }
 
-.site-nav.active ul {
-    display: flex; /* Display nav when active */
-}
-  
+  .site-nav.active {
+    display: flex; /* Show menu when active */
+    flex-direction: column; /* Ensure it's vertical */
+  }
+
+  .site-nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
 
   .site-nav ul li {
     width: 100%;
@@ -460,16 +464,19 @@ body.dark-mode .team-member p {
   }
 
   .site-nav {
+    display: none;
     flex-direction: column;
     align-items: flex-start;
+    background-color: #2c3e50;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #2c3e50;
-    display: none;
-    flex-wrap: wrap;
     padding: 10px 20px;
+  }
+
+  .site-nav.active {
+    display: flex;
   }
 
   .site-nav ul {
@@ -486,10 +493,6 @@ body.dark-mode .team-member p {
     font-size: 1.2em;
     padding: 10px 20px;
     width: 100%;
-  }
-
-  .site-nav.active {
-    display: flex;
   }
 
   .content-section {
