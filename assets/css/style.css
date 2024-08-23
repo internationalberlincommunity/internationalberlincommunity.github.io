@@ -349,6 +349,14 @@ body.dark-mode .rule p {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
 .team-member h3 {
   margin: 10px 0;
   font-size: 1.8em;
@@ -661,6 +669,24 @@ body.dark-mode .program-info p {
   color: #ecf0f1;
 }
 
+/* Program Cards Adjustments for Mobile View */
+@media (max-width: 768px) {
+  .program-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .program-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .program-info {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
 /* Contact Us Page Styles */
 .contact-grid {
   display: grid;
@@ -842,3 +868,62 @@ body.dark-mode .legal-info .section-title {
   color: #1abc9c;
   border-bottom: 2px solid #1abc9c;
 }
+
+/* Team Member Detail Page Styles */
+.team-member-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.team-member-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.team-member-info {
+  text-align: center;
+}
+
+.team-member-info h2 {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.team-member-info .team-member-title {
+  font-size: 1.2em;
+  color: #16a085;
+  margin-bottom: 20px;
+}
+
+.team-member-info .team-member-bio {
+  font-size: 1.1em;
+  color: #34495e;
+  line-height: 1.6;
+}
+
+body.dark-mode .team-member-detail {
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+body.dark-mode .team-member-info h2,
+body.dark-mode .team-member-info .team-member-title {
+  color: #ecf0f1;
+}
+
+body.dark-mode .team-member-info .team-member-bio {
+  color: #ecf0f1;
+}
+
