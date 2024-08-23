@@ -3,10 +3,12 @@
     <div class="logo-icon">IBC</div>
     <div class="logo-text">International Berlin Community</div>
   </a>
+
+  <div class="hamburger" id="hamburger-menu">
+    <i class="fas fa-bars"></i>
+  </div>
+
   <nav class="site-nav">
-    <div class="hamburger" id="hamburger-menu">
-      <i class="fas fa-bars"></i>
-    </div>
     <ul id="nav-links">
       <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
       <li><a href="{{ site.url }}{{ site.baseurl }}/about/">About Us</a></li>
@@ -21,8 +23,9 @@
   </nav>
 </header>
 
+
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     const toggleButton = document.querySelector('.dark-mode-toggle');
     const body = document.body;
 
@@ -51,5 +54,5 @@
     hamburger.addEventListener('click', () => {
       navLinks.classList.toggle('active');
     });
-  });
+});
 </script>
