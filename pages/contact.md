@@ -26,7 +26,7 @@ permalink: /contact/
     <div class="contact-item">
       <i class="fab fa-instagram contact-icon"></i>
       <h3>Instagram</h3>
-      <p><a href="http://www.instagram.com/internationalberlinhiking" target="_blank" rel="noopener noreferrer">@internationalberlinhiking</a></p>
+      <p><a href="https://www.instagram.com/internationalberlincommunity" target="_blank" rel="noopener noreferrer">@internationalberlinhiking</a></p>
     </div>
 
     <div class="contact-item">

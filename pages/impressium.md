@@ -20,7 +20,7 @@ permalink: /impressum/
     <h2 class="section-title">Contact Information</h2>
     <p><strong>Email</strong>: ibcmanagement@outlook.com</p>
     <p><strong>Facebook</strong>: <a href="https://www.facebook.com/groups/internationalberlinhiking" target="_blank" rel="noopener noreferrer">International Berlin Community on Facebook</a></p>
-    <p><strong>Instagram</strong>: <a href="http://www.instagram.com/internationalberlinhiking" target="_blank" rel="noopener noreferrer">@internationalberlinhiking</a></p>
+    <p><strong>Instagram</strong>: <a href="https://www.instagram.com/internationalberlincommunity" target="_blank" rel="noopener noreferrer">@internationalberlinhiking</a></p>
     <p><strong>WhatsApp</strong>: <a href="https://chat.whatsapp.com/KvFKTUWcWrd6lhff5YlIow" target="_blank" rel="noopener noreferrer">Join our WhatsApp group</a></p>
   </div>
 
