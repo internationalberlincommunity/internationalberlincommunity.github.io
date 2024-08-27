@@ -14,7 +14,6 @@ permalink: /team/
   <div class="team">
     {% for member in site.data.team %}
     <div class="team-member">
-      <a href="{{ member.link }}"><img src="{{ member.photo }}" alt="{{ member.name }}"></a>
       <h3><a href="{{ member.link }}">{{ member.name }}</a></h3>
       <p>{{ member.bio }}</p>
       <div class="team-member-links">
@@ -36,7 +35,6 @@ permalink: /team/
   <div class="team former-team">
     {% for member in site.data.former_team %}
     <div class="team-member">
-      <a href="{{ member.link }}"><img src="{{ member.photo }}" alt="{{ member.name }}"></a>
       <h3><a href="{{ member.link }}">{{ member.name }}</a></h3>
       <p>{{ member.bio }}</p>
       <div class="team-member-links">

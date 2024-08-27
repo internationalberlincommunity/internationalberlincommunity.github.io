@@ -1,13 +1,20 @@
+- name: Anna P.
+  photo: 
+  bio: President
+  link: /team/gia-phan/
+  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
+  email: 
+  
 - name: Adam Miko
   photo: /assets/images/adam_miko.jpg
-  bio: Adam is the founder of IBC.
+  bio: Vice president | Founder
   link: /team/adam-miko/
   linkedin: https://www.linkedin.com/in/%C3%A1d%C3%A1m-mik%C3%B3/
   email: 
 
 - name: Gia Phan
   photo: 
-  bio: Gia is the co-founder of IBC.
+  bio: Co-founder
   link: /team/gia-phan/
   linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
   email: 
@@ -36,13 +43,6 @@
 - name: Talal D.
   photo: 
   bio: Talal specialized for food events.
-  link: /team/gia-phan/
-  linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
-  email: 
-
-- name: Anna P.
-  photo: 
-  bio: Anna specialies for hikes.
   link: /team/gia-phan/
   linkedin: https://www.linkedin.com/in/thanh-phuong-le-phan/
   email: 

@@ -927,3 +927,116 @@ body.dark-mode .team-member-info .team-member-bio {
   color: #ecf0f1;
 }
 
+/* About Me Page Styles */
+.about-me-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.about-me-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-me-header h1 {
+  font-size: 2.6em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.about-me-header .linkedin-link {
+  font-size: 1.2em;
+  color: #1abc9c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about-me-header .linkedin-link:hover {
+  color: #16a085;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 2em;
+  color: #2c3e50;
+  border-bottom: 2px solid #1abc9c;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+section p, section ul {
+  font-size: 1.2em;
+  color: #34495e;
+  line-height: 1.7;
+}
+
+.job, .education-item {
+  margin-bottom: 30px;
+}
+
+.job h3, .education-item h3 {
+  font-size: 1.6em;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.job p.company, .education-item p.school {
+  font-size: 1.2em;
+  color: #95a5a6;
+  margin-bottom: 10px;
+}
+
+.skills, .languages {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.languages {
+  margin-right: 0;
+}
+
+.skills ul, .languages ul {
+  padding-left: 20px;
+}
+
+.skills ul li, .languages ul li {
+  margin-bottom: 10px;
+}
+
+.personal-interests p {
+  font-size: 1.2em;
+  color: #34495e;
+  line-height: 1.7;
+}
+
+/* Dark Mode */
+body.dark-mode .about-me-container {
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+body.dark-mode .about-me-header h1, body.dark-mode section h2 {
+  color: #ecf0f1;
+}
+
+body.dark-mode section p, body.dark-mode section ul, body.dark-mode .skills ul li, body.dark-mode .languages ul li, body.dark-mode .personal-interests p {
+  color: #ecf0f1;
+}
+
+body.dark-mode .about-me-header .linkedin-link {
+  color: #16a085;
+}
+
+body.dark-mode .about-me-header .linkedin-link:hover {
+  color: #1abc9c;
+}
