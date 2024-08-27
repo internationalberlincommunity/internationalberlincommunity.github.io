@@ -7,6 +7,7 @@ permalink: /team/adam-miko/
 <div class="about-me-container">
   <header class="about-me-header">
     <h1>Adam Miko</h1>
+    <p>Vice president | Founder</p>
     <p><a href="https://www.linkedin.com/in/ádám-mikó/" target="_blank" class="linkedin-link">LinkedIn Profile</a></p>
   </header>
 
