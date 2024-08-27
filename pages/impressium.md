@@ -26,6 +26,6 @@ permalink: /impressum/
 
   <div class="legal-info">
     <h2 class="section-title">Legal Form</h2>
-    <p>The International Berlin Community (IBC) is an association under German law, with the purpose of fostering international understanding, tolerance, and cultural exchange in Berlin through social events.</p>
+    <p>The International Berlin Community (IBC) has successfully conducted its founding meeting. All necessary documents have been submitted to our legal representatives, and we are currently in the final stages of obtaining official registration and recognition as an association under German law. Our purpose is to foster international understanding, tolerance, and cultural exchange in Berlin through social events.</p>
   </div>
 </div>
